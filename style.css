@@ -13,3 +13,36 @@ h3 {
     font-size: 30px;
 }
 /* header-section style */
+.banner {
+    background-image: url("./images/banner/banner1.png");
+    height: 100vh;
+    width: 217vh;
+    background-position: center;
+}
+
+.hero-section {
+    padding: 150px 200px;
+    text-align: right;
+    /* float:right; */
+}
+
+.section-title {
+    font-size: 60px;
+    padding: 20px 0;
+}
+
+.section-description {
+    padding: 20px 0;
+}
+
+.primary-btn {
+    background-color: #F15B22;
+    color: white;
+    padding: 10px 10px;
+    font-weight: 500;
+    font-size: 20px;
+    box-shadow: 1px 1px 1px 1px rgb(170, 166, 166);
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0;
+}
