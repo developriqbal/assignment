@@ -127,3 +127,50 @@ h3 {
 .mindset button{
     margin: 15px 0;
 }
+
+/* footer section styles */
+
+.footer-section {
+
+    display: flex;
+    gap: 300px;
+    justify-content: space-between;
+    background-color: #151414;
+    padding: 100px 200px;
+    color: white;
+}
+footer img{
+    margin-right:10px;
+}
+footer p{
+    padding: 15px 0;
+}
+/* .footer-title{
+    margin: 100px 0;
+} */
+
+
+/* forms styles */
+
+input[type=email]{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #151414;
+    padding: 15px 10px;
+    margin: 20px 0;
+}
+#email{
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+.secondary-btn{
+    background-color: white;
+    color: red;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+
+}
